@@ -5,46 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum di Paperon De' Paperoni</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1, h2 { color: #333; }
-        .section { margin-bottom: 20px; }
-        .contact-info { font-size: 0.9em; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            color: #888;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="https://via.placeholder.com/150" alt="Foto di Paperon De' Paperoni" class="profile-pic">
         <h1>Paperon De' Paperoni</h1>
-        <p class="contact-info">Email: ilpaperone@gmail.com | Telefono: informazione riservata -.- </p>
+        <p class="contact-info">Email: ilpaperone@gmail.com | Telefono: informazione riservata -.-</p>
     </header>
-    <main>
-        <div class="section">
-            <h2>Esperienze Lavorative</h2>
-            <ul>
-                <li><strong>Banchiere</strong> presso Banca (1867 - 1991)</li>
-                <!-- Aggiungi altre esperienze -->
-              
-              <li><strong>Imprenditore</strong> presso Paperopoli (1867 - 1991)</li>
-              
-            </ul>
-        </div>
-        <div class="section">
-            <h2>Istruzione</h2>
-            <ul>
-                <li><strong> Nessun Titolo di Studio</strong> presso Nessuna Università</li>
-                <!-- Aggiungi altre formazioni -->
-              
-            </ul>
-        </div>
-        <div class="section">
-            <h2>Competenze</h2>
-            <ul>
-                <li>Fare soldi</li>
-                <li>Tanti soldi</li>
-                <!-- Aggiungi altre competenze -->
-              
-            </ul>
-        </div>
-    </main>
+    <div class="container">
+        <main>
+            <div class="section">
+                <h2>Esperienze Lavorative</h2>
+                <ul>
+                    <li><strong>Banchiere</strong> presso Banca (1867 - 1991)</li>
+                    <li><strong>Imprenditore</strong> presso Paperopoli (1867 - 1991)</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Istruzione</h2>
+                <ul>
+                    <li><strong>Nessun Titolo di Studio</strong> presso Nessuna Università</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Competenze</h2>
+                <ul>
+                    <li>Fare soldi</li>
+                    <li>Tanti soldi</li>
+                </ul>
+            </div>
+        </main>
+    </div>
     <footer>
         <p>&copy; 2024 Paperon De' Paperoni. Tutti i diritti riservati (a me).</p>
     </footer>
