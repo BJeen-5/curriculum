@@ -1,121 +1,45 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum di Paperon De' Paperoni</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0e68c; /* Light gold color */
-      color: #333;
-    }
-    header {
-      background-color: #d67900; /* Rich orange color */
-      color: white;
-      padding: 20px;
-      text-align: center;
-      position: relative;
-    }
-    header img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-    }
-    header .love-money {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      background-color: yellow;
-      color: red;
-      padding: 10px;
-      font-weight: bold;
-      border-radius: 10px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2em;
-      margin: 10px 0;
-    }
-    .contact-info {
-      font-size: 0.9em;
-      color: #888;
-      text-align: center;
-    }
-    h2 {
-      color: #d67900; /* Rich orange color */
-      border-bottom: 2px solid #e74c3c;
-      padding-bottom: 5px;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li {
-      background-color: #ecf0f1;
-      margin: 5px 0;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    .timeline {
-      position: relative;
-      margin: 20px 0;
-      padding: 0;
-      list-style-type: none;
-    }
-    .timeline:before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 0;
-      height: 100%;
-      width: 2px;
-      background: #d67900; /* Rich orange color */
-    }
-    .timeline-item {
-      position: relative;
-      width: 50%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    .timeline-item:nth-child(odd) {
-      left: 0;
-    }
-    .timeline-item:nth-child(even) {
-      left: 50%;
-    }
-    .timeline-item::after {
-      content: '';
-      position: absolute;
-      top: 20px;
-      right: -6px;
-      width: 0;
-      height: 0;
-      border: solid transparent;
-      border-width: 6px;
-      border-left-color: #ecf0f1;
-      display: block;
-      pointer-events: none;
-    }
-    .timeline-item:nth-child(odd)::after {
-      right: auto;
-      left: -6px;
-      border-left-color: transparent;
-      border-right-color: #ecf0f1;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum di Paperon de' Paperoni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="paperone.jpg" alt="Paperone de' Paperoni">
+        <h1>Paperon de' Paperoni</h1>
+        <h2>Il papero più ricco del mondo</h2>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Chi sono</h2>
+            <p>Paperon de' Paperoni, nato a Glasgow nel 1877, è un papero intraprendente e tenace, noto in tutto il mondo per la sua immensa ricchezza. Autodidatta e amante dell'avventura, ha costruito il suo impero partendo da zero...</p>
+        </section>
+
+        <section id="timeline">
+            <h2>La mia storia</h2>
+            <ul>
+                <li><strong>1877</strong> Nascita a Glasgow</li>
+                </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Competenze</h2>
+            <ul>
+                <li>Ricerca di tesori</li>
+                <li>Investimenti</li>
+                <li>Nuoto</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Paperone de' Paperoni
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
