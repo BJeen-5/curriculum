@@ -1,186 +1,121 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum di Paperon De' Paperoni</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #34495e;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-        }
-        header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto;
-        }
-        header .love-money {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background-color: yellow;
-            color: red;
-            padding: 10px;
-            font-weight: bold;
-            border-radius: 10px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2em;
-            margin: 10px 0;
-        }
-        .contact-info {
-            font-size: 0.9em;
-            color: #888;
-            text-align: center;
-        }
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #e74c3c;
-            padding-bottom: 5px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            background-color: #ecf0f1;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .timeline {
-            position: relative;
-            margin: 20px 0;
-            padding: 0;
-            list-style-type: none;
-        }
-        .timeline:before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 0;
-            height: 100%;
-            width: 2px;
-            background: #34495e;
-        }
-        .timeline-item {
-            position: relative;
-            width: 50%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .timeline-item:nth-child(odd) {
-            left: 0;
-        }
-        .timeline-item:nth-child(even) {
-            left: 50%;
-        }
-        .timeline-item::after {
-            content: '';
-            position: absolute;
-            top: 20px;
-            right: -6px;
-            width: 0;
-            height: 0;
-            border: solid transparent;
-            border-width: 6px;
-            border-left-color: #ecf0f1;
-            display: block;
-            pointer-events: none;
-        }
-        .timeline-item:nth-child(odd)::after {
-            right: auto;
-            left: -6px;
-            border-left-color: transparent;
-            border-right-color: #ecf0f1;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #34495e;
-            color: white;
-        }
-        .coins {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-        }
-        .coins-1 {
-            top: 50px;
-            right: 30px;
-        }
-        .coins-2 {
-            bottom: 50px;
-            left: 30px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <img src="https://via.placeholder.com/150" alt="Foto di Paperon De' Paperoni" class="profile-pic">
-        <div class="love-money">I LOVE MONEY</div>
-        <h1>Paperon De' Paperoni</h1>
-        <p class="contact-info">Email: ilpaperone@gmail.com | Telefono: informazione riservata -.-</p>
-    </header>
-    <div class="container">
-        <ul class="timeline">
-            <li class="timeline-item"><strong>1789</strong> - Rivoluzione Francese</li>
-            <li class="timeline-item"><strong>1969</strong> - Sbarco sulla Luna</li>
-            <li class="timeline-item"><strong>1945</strong> - Fine della Seconda Guerra Mondiale</li>
-            <li class="timeline-item"><strong>1492</strong> - Scoperta dell'America</li>
-            <li class="timeline-item"><strong>1989</strong> - Caduta del Muro di Berlino</li>
-            <li class="timeline-item"><strong>2001</strong> - Attentati dell'11 settembre</li>
-            <li class="timeline-item"><strong>2020</strong> - Pandemia di COVID-19</li>
-        </ul>
-        <main>
-            <div class="section">
-                <h2>Esperienze Lavorative</h2>
-                <ul>
-                    <li><strong>Banchiere</strong> presso Banca (1867 - 1991)</li>
-                    <li><strong>Imprenditore</strong> presso Paperopoli (1867 - 1991)</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Istruzione</h2>
-                <ul>
-                    <li><strong>Nessun Titolo di Studio</strong> presso Nessuna Università</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Competenze</h2>
-                <ul>
-                    <li>Fare soldi</li>
-                    <li>Tanti soldi</li>
-                </ul>
-            </div>
-        </main>
-    </div>
-    <footer>
-        <p>&copy; 2024 Paperon De' Paperoni. Tutti i diritti riservati (a me).</p>
-    </footer>
-    <img src="https://via.placeholder.com/50" alt="Monetina" class="coins coins-1">
-    <img src="https://via.placeholder.com/50" alt="Monetina" class="coins coins-2">
-</body>
-</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum di Paperon De' Paperoni</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0e68c; /* Light gold color */
+      color: #333;
+    }
+    header {
+      background-color: #d67900; /* Rich orange color */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+    header .love-money {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      background-color: yellow;
+      color: red;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2em;
+      margin: 10px 0;
+    }
+    .contact-info {
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+    h2 {
+      color: #d67900; /* Rich orange color */
+      border-bottom: 2px solid #e74c3c;
+      padding-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background-color: #ecf0f1;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .timeline {
+      position: relative;
+      margin: 20px 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .timeline:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background: #d67900; /* Rich orange color */
+    }
+    .timeline-item {
+      position: relative;
+      width: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .timeline-item:nth-child(odd) {
+      left: 0;
+    }
+    .timeline-item:nth-child(even) {
+      left: 50%;
+    }
+    .timeline-item::after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: -6px;
+      width: 0;
+      height: 0;
+      border: solid transparent;
+      border-width: 6px;
+      border-left-color: #ecf0f1;
+      display: block;
+      pointer-events: none;
+    }
+    .timeline-item:nth-child(odd)::after {
+      right: auto;
+      left: -6px;
+      border-left-color: transparent;
+      border-right-color: #ecf0f1;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
